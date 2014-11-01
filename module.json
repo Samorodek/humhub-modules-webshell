@@ -1,0 +1,9 @@
+{    "id": "webshell",
+    "name": "WebShellModule",
+    "description": "Yii web shell.",
+    "keywords": ["webshell"],
+    "version": "0.1",
+    "humhub": {
+        "minVersion": "0.5",
+    }
+}

@@ -1,4 +1,1 @@
-humhub-modules-webshell
-=======================
-
-Simple web shell.
+readme_en.txt
