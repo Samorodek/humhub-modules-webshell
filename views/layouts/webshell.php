@@ -6,7 +6,7 @@
 </head>
 <body>
 <?php 
-if(Yii::app()->user->name === "Admin")
+if(Yii::app()->user->id === "1")
 {
 echo $content;
 }
