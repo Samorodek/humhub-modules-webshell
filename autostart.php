@@ -8,7 +8,8 @@ Yii::app()->moduleManager->register(array(
     ),
     // Events to Catch
     'events' => array(
+        array('class' => 'AdminMenuWidget', 'event' => 'onInit', 'callback' => array('WebShellModule', 'onAdminMenuInit')),
         array('class' => 'WebApplication', 'event' => 'onInit', 'callback' => array('WebShellModule', 'onWebApplicationInit')),
-    ),
+),
 ));
 ?>

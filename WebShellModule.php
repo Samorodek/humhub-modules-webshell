@@ -114,8 +114,18 @@ class WebShellModule extends HWebModule {
             'icon' => '<i class="fa fa-align-left"></i>',
             'group' => 'manage',
             'sortOrder' => 1000,
-            'isActive' => (Yii::app()->controller->module && Yii::app()->controller->module->id == 'webshell' && Yii::app()->controller->id == 'default'),
+            'isActive' => (Yii::app()->controller->module && Yii::app()->controller->module->id == 'webshell' && Yii::app()->controller->id == 'webshell'),
             'newItemCount' => 0
+        ));
+    }
+
+    public static function onWebApplicationInit($event)
+    {
+
+        Yii::app()->setModules(array(
+            'webshell' => array(
+                'class' => 'system.webshell.WebShellModule',
+                ),
         ));
     }
 }
