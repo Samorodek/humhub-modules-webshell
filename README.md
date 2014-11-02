@@ -3,6 +3,9 @@ HumHub web shell
 Download and Put files into /protected/modules/webshell
 Activate module
 & Have fun with update HumHub on non-ssh servers.
+
+Special thanks for HumHub Community
+
 Special thanks (Yii Web Shell)
 --------------
 - [Dimitrios Meggidis](http://www.yiiframework.com/forum/index.php?/user/4786-tydeas-dr/) for
