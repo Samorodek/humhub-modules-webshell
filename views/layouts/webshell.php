@@ -5,14 +5,6 @@
     <title><?php echo $this->pageTitle?></title>
 </head>
 <body>
-<?php 
-if(Yii::app()->user->id === "1")
-{
-echo $content;
-}
-else
-{
-}
-?>
+<?php echo $content ?>
 </body>
 </html>
